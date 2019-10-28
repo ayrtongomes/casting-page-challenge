@@ -1,5 +1,9 @@
 import React from 'react';
 
+import logo from 'assets/img/play-arrow.svg';
+import loupe from 'assets/img/icons/icon-search.svg';
+import avatar from 'assets/img/christian.jpg';
+
 import './index.css';
 
 const Header = () => {
@@ -8,10 +12,10 @@ const Header = () => {
         <>
             <section className="navigation">
                 <div className="nav-container">
-                    <div className="brand">
-                        <a href="#!">Logo</a>
-                    </div>
                     <nav>
+                        <div className="brand">
+                            <img src={logo} alt="Logo"></img>
+                        </div>
                         <ul className="nav-list">
                             <li>
                                 <a href="#!">Actors</a>
@@ -31,13 +35,13 @@ const Header = () => {
                         </ul>
                         <div className="rightside-bar">
                             <div className="searchbar">
-                                <span className="searchbar-icon">#</span>
-                                <input className="input-searchbar" placeholder="Buscar">
-
-                                </input>
+                                <img className="searchbar-icon" src={loupe} alt="icon" />
+                                <input className="input-searchbar" placeholder="Buscar" />
                             </div>
                             <span className="notification-icon">5</span>
-                            <span className="avatar-icon notification-icon">8</span>
+                            <div className="avatar-icon">
+                                <img src={avatar} alt="Avatar" />
+                            </div>
                         </div>
                     </nav>
                 </div>
