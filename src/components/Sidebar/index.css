@@ -1,0 +1,37 @@
+a {
+    cursor: pointer;
+}
+.sidebar-toggle {
+  margin-left: -240px;
+}
+.sidebar {
+  width: 240px;
+  height: 100%;
+  background: white;
+  position: absolute;
+  z-index: 100;
+  border-right: 2px solid #f3f3f3;
+}
+.sidebar h4 {
+    text-align: left;
+    color: #aeb2b7;
+    font-weight: 500;
+}
+.sidebar-content {
+    border-bottom: 2px solid #f3f3f3;
+}
+.newItem-link {
+    padding: 15px 5px;
+    color: #bbbaba;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+}
+.newItem-link .icon {
+    fill: #f8f6f6;
+    opacity: 0.6;
+    margin-right: 18px;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+}
