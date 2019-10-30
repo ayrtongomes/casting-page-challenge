@@ -13,8 +13,8 @@ const MenuList = ({ title, children, ...props }) => {
 
     return (
         <li>
-            <a onClick={handleToggle}>
-                <img src={icon} height="26px" className="img-item" />
+            <a href="#!" onClick={handleToggle}>
+                <img src={icon} height="26px" className="img-item" alt="Emoji Icon"/>
                 <span>{title}</span>
             </a>
             {open &&

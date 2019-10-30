@@ -6,7 +6,7 @@ const ListItem = ({ title, smallTitle, ...props }) => {
 
     return (
         <li>
-            <a href="#">{title}</a>
+            <a href="#!">{title}</a>
             <small>{smallTitle}</small>
         </li>
     )

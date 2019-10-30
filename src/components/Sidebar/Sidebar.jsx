@@ -33,8 +33,8 @@ const Sidebar = () => {
                     </MenuList>
                 </ul>
                 <div className="newItem-link">
-                    <img src={plusIcon} className="icon" />
-                    <a>Add new project</a>
+                    <img src={plusIcon} className="icon" alt="icon" />
+                    <a href="#!">Add new project</a>
                 </div>
             </div>
         </aside>

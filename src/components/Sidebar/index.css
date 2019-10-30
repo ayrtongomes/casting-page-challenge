@@ -10,7 +10,7 @@ a {
   background: white;
   position: absolute;
   z-index: 100;
-  border-right: 2px solid #f3f3f3;
+  border-right: 1px solid #f3f3f3;
 }
 .sidebar h4 {
     text-align: left;
@@ -18,7 +18,7 @@ a {
     font-weight: 500;
 }
 .sidebar-content {
-    border-bottom: 2px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
 }
 .newItem-link {
     padding: 15px 5px;

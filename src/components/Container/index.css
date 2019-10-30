@@ -1,0 +1,22 @@
+.main{
+    margin-left: 240px;
+}
+.container-content {
+    padding: 1.33em 2.8em 0 2.8em;
+}
+.item-project {
+    display: grid;
+    text-align: left;
+    border-bottom: 1px solid #f3f3f3;
+    width: calc(100% - 80px);
+    padding-bottom: 25px;
+}
+
+.item-project span {
+    font-size: 24px;
+    font-weight: 600;
+}
+.item-project small {
+    color: #808080;
+    font-size: 15px;
+}
