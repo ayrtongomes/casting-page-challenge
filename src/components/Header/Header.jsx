@@ -10,7 +10,7 @@ const Header = ({container,brand, mainHeader, children,...props}) => {
 
     return (
         <>
-            <section className={!container &&  "navigation"}>
+            <section className="navigation">
                 <div className="nav-container">
                     <nav>
                         {mainHeader &&

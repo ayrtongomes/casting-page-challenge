@@ -3,6 +3,7 @@
 }
 .container-content {
     padding: 1.33em 2.8em 0 2.8em;
+    display: flex;
 }
 .item-project {
     display: grid;

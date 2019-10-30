@@ -57,3 +57,19 @@ ul ul li a {
 ul ul li small {
   color: #ccc;
 }
+
+.dropdown-icon {
+  height: 18px;
+  width: 18px;
+  opacity: 0.3;
+  vertical-align: middle;
+  float: right;
+  margin: 5px 5px;
+}
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

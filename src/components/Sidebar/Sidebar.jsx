@@ -13,7 +13,7 @@ const Sidebar = () => {
         <aside className="sidebar">
             <div id="leftside-navigation" className="sidebar-block">
                 <h4>PROJECTS</h4>
-                <ul class="sidebar-content">
+                <ul className="sidebar-content">
                     <MenuList title="Cyberpunk 2077">
                         <ListItem title="Katerina" smallTitle="Main Role" />
                         <ListItem title="Kenzie Pasley" smallTitle="Secondary Role" />
@@ -34,7 +34,7 @@ const Sidebar = () => {
                 </ul>
                 <div className="newItem-link">
                     <img src={plusIcon} className="icon" alt="icon" />
-                    <a href="#!">Add new project</a>
+                    <span>Add new project</span>
                 </div>
             </div>
         </aside>
